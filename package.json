@@ -1,17 +1,24 @@
 {
   "name": "la-cosmic-company",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Website para LA Cosmic Company - Shows Artísticos en Perú",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx tailwindcss -i ./styles.css -o ./dist/styles.css --watch",
+    "build": "npx tailwindcss -i ./styles.css -o ./dist/styles.css --minify"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "arte",
+    "shows",
+    "entretenimiento",
+    "peru",
+    "eventos"
+  ],
+  "author": "LA Cosmic Company",
+  "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.4"
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
   }
 }

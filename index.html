@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LA Cosmic Company - Shows Artísticos en Perú</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-900 text-white">
+    <!-- Header -->
+    <header
+      class="fixed top-0 left-0 w-full z-50 shadow bg-gradient-to-r from-purple-900 via-pink-900 to-red-900 py-3"
+    >
+      <nav class="container mx-auto px-4 flex items-center justify-between">
+        <h1 class="text-2xl md:text-3xl font-bold">LA Cosmic Company</h1>
+        <!-- Botão hambúrguer -->
+        <button
+          id="menu-toggle"
+          class="md:hidden text-white text-3xl focus:outline-none"
+          aria-label="Abrir menu"
+        >
+          <span id="menu-icon">☰</span>
+        </button>
+        <!-- Menu de navegação -->
+        <div
+          id="nav-menu"
+          class="hidden md:flex flex-col md:flex-row md:items-center md:space-x-4 absolute md:static top-full left-0 w-full md:w-auto bg-gradient-to-r from-purple-900 via-pink-900 to-red-900 md:bg-none shadow md:shadow-none transition-all duration-300"
+        >
+          <a href="#inicio" class="block px-6 py-3 md:p-0 hover:text-pink-400"
+            >Inicio</a
+          >
+          <a
+            href="#servicios"
+            class="block px-6 py-3 md:p-0 hover:text-pink-400"
+            >Servicios</a
+          >
+          <a href="#paquetes" class="block px-6 py-3 md:p-0 hover:text-pink-400"
+            >Paquetes</a
+          >
+          <a
+            href="#complementos"
+            class="block px-6 py-3 md:p-0 hover:text-pink-400"
+            >Complementos</a
+          >
+          <a href="#contacto" class="block px-6 py-3 md:p-0 hover:text-pink-400"
+            >Contacto</a
+          >
+        </div>
+      </nav>
+    </header>
+    <div class="h-20 md:h-24"></div>
+    <!-- Espaço para header fixo -->
+
+    <!-- Hero Section -->
+    <section
+      id="inicio"
+      class="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-900 via-pink-900 to-yellow-500 relative overflow-hidden"
+    >
+      <!-- Elementos decorativos -->
+      <div
+        class="absolute top-0 left-0 w-full h-full pointer-events-none select-none"
+      >
+        <span class="absolute left-10 top-10 text-6xl opacity-20">🎪</span>
+        <span class="absolute right-10 top-20 text-7xl opacity-10">🎈</span>
+        <span class="absolute left-1/2 bottom-10 text-8xl opacity-10">✨</span>
+        <span class="absolute right-1/4 bottom-20 text-5xl opacity-20">🤹‍♂️</span>
+      </div>
+      <div class="container mx-auto px-4 text-center relative z-10">
+        <h2
+          class="text-6xl md:text-7xl font-extrabold mb-6 drop-shadow-lg text-white animate-fade-in"
+        >
+          Experiências Artísticas Inesquecíveis
+        </h2>
+        <p
+          class="text-2xl md:text-3xl mb-8 text-pink-100 font-medium animate-fade-in-slow"
+        >
+          Shows interativos, mágicos e personalizados para eventos, aniversários
+          e empresas em Lima e região.
+        </p>
+        <ul
+          class="flex flex-wrap justify-center gap-6 mb-10 animate-fade-in-slow"
+        >
+          <li
+            class="bg-pink-600/80 text-white rounded-full px-6 py-2 font-bold shadow-lg"
+          >
+            Equipe Profissional
+          </li>
+          <li
+            class="bg-yellow-400/80 text-gray-900 rounded-full px-6 py-2 font-bold shadow-lg"
+          >
+            Shows para todas as idades
+          </li>
+          <li
+            class="bg-purple-700/80 text-white rounded-full px-6 py-2 font-bold shadow-lg"
+          >
+            Experiência Única
+          </li>
+        </ul>
+        <a
+          href="#contacto"
+          class="bg-gradient-to-r from-pink-600 via-yellow-400 to-pink-600 hover:from-yellow-400 hover:to-pink-700 text-white font-extrabold py-4 px-12 rounded-full text-2xl shadow-xl transition-transform transform hover:scale-105 animate-bounce"
+        >
+          Reservar Agora
+        </a>
+      </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicios" class="py-24 bg-gray-800">
+      <div class="container mx-auto px-4">
+        <h2
+          class="text-5xl font-extrabold text-center mb-14 text-pink-400 drop-shadow-lg"
+        >
+          Nossos Serviços
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+          <div
+            class="bg-gradient-to-br from-pink-700 via-purple-800 to-yellow-400 p-8 rounded-3xl shadow-xl flex flex-col items-center hover:scale-105 transition-transform duration-300 group"
+          >
+            <span class="text-6xl mb-4 animate-pulse">🫧</span>
+            <h3 class="text-3xl font-bold mb-3 text-white">
+              Shows de Burbujas
+            </h3>
+            <p class="text-lg text-white/90 mb-4 text-center">
+              Espetáculos mágicos e interativos com bolhas gigantes, truques
+              surpreendentes e muita diversão para todas as idades.
+            </p>
+            <a
+              href="#paquetes"
+              class="mt-auto bg-white/90 text-pink-700 font-bold px-6 py-2 rounded-full shadow hover:bg-pink-600 hover:text-white transition"
+              >Ver Pacotes</a
+            >
+          </div>
+          <div
+            class="bg-gradient-to-br from-yellow-400 via-pink-600 to-purple-700 p-8 rounded-3xl shadow-xl flex flex-col items-center hover:scale-105 transition-transform duration-300 group"
+          >
+            <span class="text-6xl mb-4 animate-pulse">🎶</span>
+            <h3 class="text-3xl font-bold mb-3 text-white">Música ao Vivo</h3>
+            <p class="text-lg text-white/90 mb-4 text-center">
+              Apresentações musicais animadas, com repertório variado, interação
+              com o público e trilha sonora personalizada para seu evento.
+            </p>
+            <a
+              href="#paquetes"
+              class="mt-auto bg-white/90 text-pink-700 font-bold px-6 py-2 rounded-full shadow hover:bg-pink-600 hover:text-white transition"
+              >Ver Pacotes</a
+            >
+          </div>
+          <div
+            class="bg-gradient-to-br from-purple-700 via-pink-600 to-yellow-400 p-8 rounded-3xl shadow-xl flex flex-col items-center hover:scale-105 transition-transform duration-300 group"
+          >
+            <span class="text-6xl mb-4 animate-pulse">🎭</span>
+            <h3 class="text-3xl font-bold mb-3 text-white">
+              Títeres, Malabares & Circo
+            </h3>
+            <p class="text-lg text-white/90 mb-4 text-center">
+              Shows circenses, teatro de bonecos, malabares, acrobacias e
+              personagens divertidos para encantar crianças e adultos.
+            </p>
+            <a
+              href="#paquetes"
+              class="mt-auto bg-white/90 text-pink-700 font-bold px-6 py-2 rounded-full shadow hover:bg-pink-600 hover:text-white transition"
+              >Ver Pacotes</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Paquetes Section -->
+    <section id="paquetes" class="py-20 bg-gray-900">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center mb-12">
+          Paquetes Promocionales
+        </h2>
+
+        <!-- Shows Individuales -->
+        <div class="mb-20">
+          <h3 class="text-3xl font-bold text-center mb-8 text-pink-500">
+            Shows Individuales
+          </h3>
+          <p class="text-center text-gray-400 mb-8">
+            Shows perfectos para eventos pequeños y medianos, con un artista
+            profesional
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Paquete 1 -->
+            <div
+              class="bg-gray-800 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300"
+            >
+              <div class="text-pink-500 text-2xl font-bold mb-4">Opción 1</div>
+              <h3 class="text-xl font-bold mb-4">Show de Burbujas</h3>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>✨ 20-30 minutos de show</li>
+                <li>👨‍🎨 01 artista</li>
+                <li>🎭 Show original</li>
+                <li>🎵 Acompañamiento para cantar el HB</li>
+                <li>👥 05-20 invitados</li>
+              </ul>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-gray-400 line-through">S/ 500</span>
+                <span class="text-2xl font-bold text-pink-500">S/ 350</span>
+              </div>
+              <a
+                href="#contacto"
+                class="block text-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                Reservar Ahora
+              </a>
+            </div>
+
+            <!-- Paquete 2 -->
+            <div
+              class="bg-gray-800 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300"
+            >
+              <div class="text-pink-500 text-2xl font-bold mb-4">Opción 2</div>
+              <h3 class="text-xl font-bold mb-4">Burbujas y Música</h3>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>✨ 40 minutos de show</li>
+                <li>👨‍🎨 01 artista</li>
+                <li>🎭 Show original</li>
+                <li>🎵 Acompañamiento para cantar el HB</li>
+                <li>👥 05-20 invitados</li>
+              </ul>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-gray-400 line-through">S/ 600</span>
+                <span class="text-2xl font-bold text-pink-500">S/ 450</span>
+              </div>
+              <a
+                href="#contacto"
+                class="block text-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                Reservar Ahora
+              </a>
+            </div>
+
+            <!-- Paquete 3 -->
+            <div
+              class="bg-gray-800 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300"
+            >
+              <div class="text-pink-500 text-2xl font-bold mb-4">Opción 3</div>
+              <h3 class="text-xl font-bold mb-4">Burbujas, Títeres y Música</h3>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>✨ 40 minutos de show</li>
+                <li>👨‍🎨 01 artista</li>
+                <li>🎭 Show original</li>
+                <li>🎵 Acompañamiento para cantar el HB</li>
+                <li>👥 05-20 invitados</li>
+              </ul>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-gray-400 line-through">S/ 700</span>
+                <span class="text-2xl font-bold text-pink-500">S/ 550</span>
+              </div>
+              <a
+                href="#contacto"
+                class="block text-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                Reservar Ahora
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shows Combinados -->
+        <div class="mb-20">
+          <h3 class="text-3xl font-bold text-center mb-8 text-pink-500">
+            Shows Combinados
+          </h3>
+          <p class="text-center text-gray-400 mb-8">
+            Espectáculos que combinan diferentes disciplinas artísticas
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Paquete 4 -->
+            <div
+              class="bg-gray-800 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300"
+            >
+              <div class="text-pink-500 text-2xl font-bold mb-4">Opción 4</div>
+              <h3 class="text-xl font-bold mb-4">
+                Burbujas, Malabares y Títeres
+              </h3>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>✨ 40 minutos de show</li>
+                <li>👨‍🎨 01 artista</li>
+                <li>🎭 Show original</li>
+                <li>🎵 Acompañamiento para cantar el HB</li>
+                <li>👥 05-20 invitados</li>
+              </ul>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-gray-400 line-through">S/ 750</span>
+                <span class="text-2xl font-bold text-pink-500">S/ 550</span>
+              </div>
+              <a
+                href="#contacto"
+                class="block text-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                Reservar Ahora
+              </a>
+            </div>
+
+            <!-- Paquete 5 -->
+            <div
+              class="bg-gray-800 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300"
+            >
+              <div class="text-pink-500 text-2xl font-bold mb-4">Opción 5</div>
+              <h3 class="text-xl font-bold mb-4">Show Completo</h3>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>✨ 40 minutos de show</li>
+                <li>👨‍🎨 01 artista</li>
+                <li>
+                  🎭 Show original con burbujas, malabares, títeres y música
+                </li>
+                <li>🎵 Acompañamiento para cantar el HB</li>
+                <li>👥 05-20 invitados</li>
+              </ul>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-gray-400 line-through">S/ 800</span>
+                <span class="text-2xl font-bold text-pink-500">S/ 600</span>
+              </div>
+              <a
+                href="#contacto"
+                class="block text-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                Reservar Ahora
+              </a>
+            </div>
+
+            <!-- Paquete 6 -->
+            <div
+              class="bg-gray-800 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300"
+            >
+              <div class="text-pink-500 text-2xl font-bold mb-4">Opción 6</div>
+              <h3 class="text-xl font-bold mb-4">
+                Burbujas con Ciencia Divertida
+              </h3>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>✨ 40 minutos de show</li>
+                <li>👨‍🎨 01 artista</li>
+                <li>🔬 Experimentos de ciencia divertida</li>
+                <li>🎵 Acompañamiento para cantar el HB</li>
+                <li>👥 05-20 invitados</li>
+              </ul>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-gray-400 line-through">S/ 800</span>
+                <span class="text-2xl font-bold text-pink-500">S/ 650</span>
+              </div>
+              <a
+                href="#contacto"
+                class="block text-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                Reservar Ahora
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shows Premium -->
+        <div class="mb-20">
+          <h3 class="text-3xl font-bold text-center mb-8 text-pink-500">
+            Shows Premium
+          </h3>
+          <p class="text-center text-gray-400 mb-8">
+            Espectáculos completos con múltiples artistas para eventos más
+            grandes
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Paquete 7 -->
+            <div
+              class="bg-gray-800 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300"
+            >
+              <div class="text-pink-500 text-2xl font-bold mb-4">Opción 7</div>
+              <h3 class="text-xl font-bold mb-4">Show Premium</h3>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>✨ 60 minutos de show</li>
+                <li>👨‍🎨 01 artista</li>
+                <li>🎭 Show completo con burbujas, títeres, malabares</li>
+                <li>🔬 Ciencia divertida y música</li>
+                <li>🎵 Acompañamiento para cantar el HB</li>
+                <li>👥 05-20 invitados</li>
+              </ul>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-gray-400 line-through">S/ 900</span>
+                <span class="text-2xl font-bold text-pink-500">S/ 750</span>
+              </div>
+              <a
+                href="#contacto"
+                class="block text-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                Reservar Ahora
+              </a>
+            </div>
+
+            <!-- BURBUJAS Y MUSICA II -->
+            <div
+              class="bg-gray-800 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300"
+            >
+              <div class="text-pink-500 text-2xl font-bold mb-4">
+                BURBUJAS Y MÚSICA II
+              </div>
+              <h3 class="text-xl font-bold mb-4">Show Especial</h3>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>✨ 40 minutos de show</li>
+                <li>👨‍🎨 02 artistas</li>
+                <li>🎭 Show original</li>
+                <li>🎵 Acompañamiento para cantar el HB</li>
+                <li>👥 Hasta 50 invitados</li>
+              </ul>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-gray-400 line-through">S/ 1,250</span>
+                <span class="text-2xl font-bold text-pink-500">S/ 800</span>
+              </div>
+              <a
+                href="#contacto"
+                class="block text-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                Reservar Ahora
+              </a>
+            </div>
+
+            <!-- BURBUJAS-MALABARES-MÚSICA -->
+            <div
+              class="bg-gray-800 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300"
+            >
+              <div class="text-pink-500 text-2xl font-bold mb-4">
+                BURBUJAS-MALABARES-MÚSICA
+              </div>
+              <h3 class="text-xl font-bold mb-4">Show Especial</h3>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>✨ 50 minutos de show</li>
+                <li>👨‍🎨 03 artistas</li>
+                <li>🎭 Show original</li>
+                <li>🎵 Acompañamiento para cantar el HB</li>
+                <li>👥 Hasta 50 invitados</li>
+              </ul>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-gray-400 line-through">S/ 1,400</span>
+                <span class="text-2xl font-bold text-pink-500">S/ 1,200</span>
+              </div>
+              <a
+                href="#contacto"
+                class="block text-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                Reservar Ahora
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shows Temáticos -->
+        <div class="mb-20">
+          <h3 class="text-3xl font-bold text-center mb-8 text-pink-500">
+            Shows Temáticos
+          </h3>
+          <p class="text-center text-gray-400 mb-8">
+            Espectáculos especiales con temáticas únicas
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- MUTIBU -->
+            <div
+              class="bg-gray-800 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300"
+            >
+              <div class="text-pink-500 text-2xl font-bold mb-4">MUTIBU</div>
+              <h3 class="text-xl font-bold mb-4">Show Especial</h3>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>✨ 60 minutos de show</li>
+                <li>👨‍🎨 02 artistas</li>
+                <li>🎭 Show de burbujas, títeres y música en vivo</li>
+                <li>🎵 Acompañamiento para cantar el HB</li>
+                <li>👥 Hasta 50 invitados</li>
+              </ul>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-gray-400 line-through">S/ 1,250</span>
+                <span class="text-2xl font-bold text-pink-500">S/ 800</span>
+              </div>
+              <a
+                href="#contacto"
+                class="block text-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                Reservar Ahora
+              </a>
+            </div>
+
+            <!-- EL CIRCO DE NAX -->
+            <div
+              class="bg-gray-800 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300"
+            >
+              <div class="text-pink-500 text-2xl font-bold mb-4">
+                EL CIRCO DE NAX
+              </div>
+              <h3 class="text-xl font-bold mb-4">Show Cuentacuento</h3>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>✨ 60 minutos de show</li>
+                <li>👨‍🎨 03 artistas</li>
+                <li>📚 Cuentacuento con burbujas y malabares</li>
+                <li>🎭 Títeres y música en vivo</li>
+                <li>🎵 Acompañamiento para cantar el HB</li>
+              </ul>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-gray-400 line-through">S/ 1,600</span>
+                <span class="text-2xl font-bold text-pink-500">S/ 1,400</span>
+              </div>
+              <a
+                href="#contacto"
+                class="block text-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                Reservar Ahora
+              </a>
+            </div>
+
+            <!-- FULL CIRCO -->
+            <div
+              class="bg-gray-800 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300"
+            >
+              <div class="text-pink-500 text-2xl font-bold mb-4">
+                FULL CIRCO
+              </div>
+              <h3 class="text-xl font-bold mb-4">Show Completo</h3>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>✨ 60 minutos de show</li>
+                <li>👨‍🎨 03 artistas</li>
+                <li>🎪 Burbujas, malabares, equilibrio</li>
+                <li>🎭 Títeres, música en vivo, acrobacias</li>
+                <li>🎵 Acompañamiento para cantar el HB</li>
+                <li>👥 Hasta 50 invitados</li>
+              </ul>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-gray-400 line-through">S/ 1,700</span>
+                <span class="text-2xl font-bold text-pink-500">S/ 1,550</span>
+              </div>
+              <a
+                href="#contacto"
+                class="block text-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                Reservar Ahora
+              </a>
+            </div>
+
+            <!-- BURBUJAS CON-CIENCIA -->
+            <div
+              class="bg-gray-800 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300"
+            >
+              <div class="text-pink-500 text-2xl font-bold mb-4">
+                BURBUJAS CON-CIENCIA
+              </div>
+              <h3 class="text-xl font-bold mb-4">Show Educativo</h3>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>✨ 50 minutos de show</li>
+                <li>👨‍🎨 02 artistas</li>
+                <li>🔬 Experimentos de ciencia divertida</li>
+                <li>🎵 Música en vivo</li>
+                <li>🎭 Show de burbujas</li>
+                <li>👥 Hasta 50 invitados</li>
+              </ul>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-gray-400 line-through">S/ 1,300</span>
+                <span class="text-2xl font-bold text-pink-500">S/ 1,100</span>
+              </div>
+              <a
+                href="#contacto"
+                class="block text-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                Reservar Ahora
+              </a>
+            </div>
+
+            <!-- MAGIA Y BURBUJAS -->
+            <div
+              class="bg-gray-800 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300"
+            >
+              <div class="text-pink-500 text-2xl font-bold mb-4">
+                MAGIA Y BURBUJAS
+              </div>
+              <h3 class="text-xl font-bold mb-4">Show Mágico</h3>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>✨ 60 minutos de show</li>
+                <li>👨‍🎨 02 artistas</li>
+                <li>🎩 Show de magia</li>
+                <li>🎭 Show de burbujas</li>
+                <li>🎵 Música en vivo</li>
+                <li>👥 Hasta 50 invitados</li>
+              </ul>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-gray-400 line-through">S/ 1,250</span>
+                <span class="text-2xl font-bold text-pink-500">S/ 1,050</span>
+              </div>
+              <a
+                href="#contacto"
+                class="block text-center bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                Reservar Ahora
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Complementos y Talleres Section -->
+    <section id="complementos" class="py-20 bg-gray-800">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center mb-12">
+          Complementos y Talleres
+        </h2>
+
+        <!-- Complementos -->
+        <div class="mb-16">
+          <h3 class="text-3xl font-bold text-center mb-8 text-pink-500">
+            Complementos
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Globoflexia -->
+            <div
+              class="bg-gray-700 p-6 rounded-lg transform hover:scale-105 transition-transform duration-300"
+            >
+              <h4 class="text-2xl font-bold mb-4">Globoflexia</h4>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>👨‍🎨 01 artista</li>
+                <li>🎈 Figuras estándar con globos</li>
+                <li>⏱️ 90 minutos de duración</li>
+                <li>🚗 Traslados incluidos</li>
+              </ul>
+              <div class="text-2xl font-bold text-pink-500">S/ 550</div>
+              <p class="text-sm text-gray-400 mt-2">*Tarifa válida con show</p>
+            </div>
+
+            <!-- Registro Fotográfico -->
+            <div
+              class="bg-gray-700 p-6 rounded-lg transform hover:scale-105 transition-transform duration-300"
+            >
+              <h4 class="text-2xl font-bold mb-4">Registro Fotográfico</h4>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>📸 01 fotógrafo profesional</li>
+                <li>⏱️ 2.5 horas de duración</li>
+                <li>📷 Mini sesión familiar</li>
+                <li>💾 100 fotografías digitales</li>
+                <li>🚗 Traslados incluidos</li>
+              </ul>
+              <div class="text-2xl font-bold text-pink-500">S/ 400</div>
+              <p class="text-sm text-gray-400 mt-2">*Tarifa válida con show</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Talleres -->
+        <div>
+          <h3 class="text-3xl font-bold text-center mb-8 text-pink-500">
+            Talleres
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Taller de Burbujas -->
+            <div
+              class="bg-gray-700 p-6 rounded-lg transform hover:scale-105 transition-transform duration-300"
+            >
+              <h4 class="text-2xl font-bold mb-4">Taller de Burbujas</h4>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>👨‍🎨 01 tallerista</li>
+                <li>⏱️ 30 minutos de duración</li>
+                <li>🎨 Materiales incluidos</li>
+                <li>👥 Para 20 participantes</li>
+              </ul>
+              <div class="text-2xl font-bold text-pink-500">S/ 300</div>
+              <p class="text-sm text-gray-400 mt-2">*Tarifa válida con show</p>
+            </div>
+
+            <!-- Taller de Pintura -->
+            <div
+              class="bg-gray-700 p-6 rounded-lg transform hover:scale-105 transition-transform duration-300"
+            >
+              <h4 class="text-2xl font-bold mb-4">Taller de Pintura</h4>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>👨‍🎨 01 tallerista y 01 asistente</li>
+                <li>⏱️ 30 minutos de duración</li>
+                <li>🎨 Materiales incluidos</li>
+                <li>👥 Para 20 participantes</li>
+              </ul>
+              <div class="text-2xl font-bold text-pink-500">S/ 350</div>
+              <p class="text-sm text-gray-400 mt-2">*Tarifa válida con show</p>
+            </div>
+
+            <!-- Taller de Malabares -->
+            <div
+              class="bg-gray-700 p-6 rounded-lg transform hover:scale-105 transition-transform duration-300"
+            >
+              <h4 class="text-2xl font-bold mb-4">Taller de Malabares</h4>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>👨‍🎨 01 tallerista</li>
+                <li>⏱️ 30 minutos de duración</li>
+                <li>🎨 Materiales incluidos</li>
+                <li>👥 Para 20 participantes</li>
+              </ul>
+              <div class="text-2xl font-bold text-pink-500">S/ 300</div>
+              <p class="text-sm text-gray-400 mt-2">*Tarifa válida con show</p>
+            </div>
+
+            <!-- Taller de Ritmo -->
+            <div
+              class="bg-gray-700 p-6 rounded-lg transform hover:scale-105 transition-transform duration-300"
+            >
+              <h4 class="text-2xl font-bold mb-4">
+                Taller de Ritmo y Percusión
+              </h4>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>👨‍🎨 01 tallerista</li>
+                <li>⏱️ 30 minutos de duración</li>
+                <li>🎨 Materiales incluidos</li>
+                <li>👥 Para 20 participantes</li>
+              </ul>
+              <div class="text-2xl font-bold text-pink-500">S/ 350</div>
+              <p class="text-sm text-gray-400 mt-2">*Tarifa válida con show</p>
+            </div>
+
+            <!-- Taller de Acrobacias -->
+            <div
+              class="bg-gray-700 p-6 rounded-lg transform hover:scale-105 transition-transform duration-300"
+            >
+              <h4 class="text-2xl font-bold mb-4">
+                Taller de Acrobacias y Juegos
+              </h4>
+              <ul class="space-y-2 mb-6 text-gray-300">
+                <li>👨‍🎨 01 tallerista</li>
+                <li>⏱️ 30 minutos de duración</li>
+                <li>🤸‍♂️ Acrobacias de piso</li>
+                <li>⚖️ Equilibrio corporal</li>
+                <li>🎮 Juegos de coordinación</li>
+                <li>👥 Para 20 participantes</li>
+              </ul>
+              <div class="text-2xl font-bold text-pink-500">S/ 350</div>
+              <p class="text-sm text-gray-400 mt-2">*Tarifa válida con show</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="contacto" class="py-20 bg-gray-900">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center mb-12">Reserva tu Show</h2>
+        <!-- Formulário antigo comentado para referência -->
+        <!--
+        <form id="reservationForm" class="max-w-2xl mx-auto bg-gray-800 p-8 rounded-lg">
+          ...
+        </form>
+        -->
+        <!-- Novo formulário dinâmico tipo quizz -->
+        <form
+          id="quizForm"
+          class="max-w-2xl mx-auto bg-gray-800 p-8 rounded-lg"
+        >
+          <!-- Etapa 0: Iniciar Reserva -->
+          <div class="quiz-step" id="step-inicio">
+            <button
+              type="button"
+              class="w-full bg-pink-600 hover:bg-pink-700 text-white font-bold py-4 px-8 rounded text-2xl"
+              onclick="nextStep(1)"
+            >
+              INICIAR RESERVA
+            </button>
+          </div>
+          <!-- Etapa 1: Nome -->
+          <div class="quiz-step hidden" id="step-nome">
+            <label class="block text-gray-300 mb-2"
+              >¿Cuál es tu nombre completo?</label
+            >
+            <input
+              type="text"
+              id="quiz-nombre"
+              class="w-full p-3 bg-gray-700 rounded mb-6"
+              required
+            />
+            <div class="flex justify-between">
+              <button
+                type="button"
+                class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-8 rounded"
+                onclick="prevStep(0)"
+              >
+                Voltar
+              </button>
+              <button
+                type="button"
+                class="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-8 rounded"
+                onclick="nextStep(2)"
+              >
+                Próximo
+              </button>
+            </div>
+          </div>
+          <!-- Etapa 2: WhatsApp -->
+          <div class="quiz-step hidden" id="step-whatsapp">
+            <label class="block text-gray-300 mb-2"
+              >¿Cuál es tu número de WhatsApp?</label
+            >
+            <input
+              type="tel"
+              id="quiz-whatsapp"
+              class="w-full p-3 bg-gray-700 rounded mb-6"
+              required
+            />
+            <div class="flex justify-between">
+              <button
+                type="button"
+                class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-8 rounded"
+                onclick="prevStep(1)"
+              >
+                Voltar
+              </button>
+              <button
+                type="button"
+                class="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-8 rounded"
+                onclick="nextStep(3)"
+              >
+                Próximo
+              </button>
+            </div>
+          </div>
+          <!-- Etapa 3: Data -->
+          <div class="quiz-step hidden" id="step-fecha">
+            <label class="block text-gray-300 mb-2"
+              >¿Cuál es la fecha del evento?</label
+            >
+            <input
+              type="date"
+              id="quiz-fecha"
+              class="w-full p-3 bg-gray-700 rounded mb-6"
+              required
+            />
+            <div class="flex justify-between">
+              <button
+                type="button"
+                class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-8 rounded"
+                onclick="prevStep(2)"
+              >
+                Voltar
+              </button>
+              <button
+                type="button"
+                class="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-8 rounded"
+                onclick="nextStep(4)"
+              >
+                Próximo
+              </button>
+            </div>
+          </div>
+          <!-- Etapa 4: Pacote -->
+          <div class="quiz-step hidden" id="step-paquete">
+            <label class="block text-gray-300 mb-2"
+              >¿Qué paquete principal deseas?</label
+            >
+            <select
+              id="quiz-paquete"
+              class="w-full p-3 bg-gray-700 rounded mb-6"
+              required
+            >
+              <option value="">Selecciona un paquete</option>
+              <option value="Opción 1 - Show de Burbujas (S/ 350)">
+                Opción 1 - Show de Burbujas (S/ 350)
+              </option>
+              <option value="Opción 2 - Burbujas y Música (S/ 450)">
+                Opción 2 - Burbujas y Música (S/ 450)
+              </option>
+              <option value="Opción 3 - Burbujas, Títeres y Música (S/ 550)">
+                Opción 3 - Burbujas, Títeres y Música (S/ 550)
+              </option>
+              <option value="Opción 4 - Burbujas, Malabares y Títeres (S/ 550)">
+                Opción 4 - Burbujas, Malabares y Títeres (S/ 550)
+              </option>
+              <option value="Opción 5 - Show Completo (S/ 600)">
+                Opción 5 - Show Completo (S/ 600)
+              </option>
+              <option
+                value="Opción 6 - Burbujas con Ciencia Divertida (S/ 650)"
+              >
+                Opción 6 - Burbujas con Ciencia Divertida (S/ 650)
+              </option>
+              <option value="Opción 7 - Show Premium (S/ 750)">
+                Opción 7 - Show Premium (S/ 750)
+              </option>
+              <option value="BURBUJAS Y MÚSICA II (S/ 800)">
+                BURBUJAS Y MÚSICA II (S/ 800)
+              </option>
+              <option value="BURBUJAS-MALABARES-MÚSICA (S/ 1,200)">
+                BURBUJAS-MALABARES-MÚSICA (S/ 1,200)
+              </option>
+              <option value="MUTIBU (S/ 800)">MUTIBU (S/ 800)</option>
+              <option value="EL CIRCO DE NAX (S/ 1,400)">
+                EL CIRCO DE NAX (S/ 1,400)
+              </option>
+              <option value="FULL CIRCO (S/ 1,550)">
+                FULL CIRCO (S/ 1,550)
+              </option>
+              <option value="BURBUJAS CON-CIENCIA (S/ 1,100)">
+                BURBUJAS CON-CIENCIA (S/ 1,100)
+              </option>
+              <option value="MAGIA Y BURBUJAS (S/ 1,050)">
+                MAGIA Y BURBUJAS (S/ 1,050)
+              </option>
+            </select>
+            <div class="flex justify-between">
+              <button
+                type="button"
+                class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-8 rounded"
+                onclick="prevStep(3)"
+              >
+                Voltar
+              </button>
+              <button
+                type="button"
+                class="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-8 rounded"
+                onclick="nextStep(5)"
+              >
+                Próximo
+              </button>
+            </div>
+          </div>
+          <!-- Etapa 5: Complementos -->
+          <div class="quiz-step hidden" id="step-complementos">
+            <label class="block text-gray-300 mb-2"
+              >¿Desea agregar complementos?</label
+            >
+            <div class="space-y-2 mb-6">
+              <label class="flex items-center"
+                ><input
+                  type="checkbox"
+                  class="mr-2"
+                  name="quiz-complementos"
+                  value="Globoflexia (S/ 550)"
+                />Globoflexia (S/ 550)</label
+              >
+              <label class="flex items-center"
+                ><input
+                  type="checkbox"
+                  class="mr-2"
+                  name="quiz-complementos"
+                  value="Registro Fotográfico (S/ 400)"
+                />Registro Fotográfico (S/ 400)</label
+              >
+            </div>
+            <div class="flex justify-between">
+              <button
+                type="button"
+                class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-8 rounded"
+                onclick="prevStep(4)"
+              >
+                Voltar
+              </button>
+              <button
+                type="button"
+                class="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-8 rounded"
+                onclick="nextStep(6)"
+              >
+                Próximo
+              </button>
+            </div>
+          </div>
+          <!-- Etapa 6: Talleres -->
+          <div class="quiz-step hidden" id="step-talleres">
+            <label class="block text-gray-300 mb-2"
+              >¿Desea agregar talleres?</label
+            >
+            <div class="space-y-2 mb-6">
+              <label class="flex items-center"
+                ><input
+                  type="checkbox"
+                  class="mr-2"
+                  name="quiz-talleres"
+                  value="Taller de Burbujas (S/ 300)"
+                />Taller de Burbujas (S/ 300)</label
+              >
+              <label class="flex items-center"
+                ><input
+                  type="checkbox"
+                  class="mr-2"
+                  name="quiz-talleres"
+                  value="Taller de Pintura (S/ 350)"
+                />Taller de Pintura (S/ 350)</label
+              >
+              <label class="flex items-center"
+                ><input
+                  type="checkbox"
+                  class="mr-2"
+                  name="quiz-talleres"
+                  value="Taller de Malabares (S/ 300)"
+                />Taller de Malabares (S/ 300)</label
+              >
+              <label class="flex items-center"
+                ><input
+                  type="checkbox"
+                  class="mr-2"
+                  name="quiz-talleres"
+                  value="Taller de Ritmo y Percusión (S/ 350)"
+                />Taller de Ritmo y Percusión (S/ 350)</label
+              >
+              <label class="flex items-center"
+                ><input
+                  type="checkbox"
+                  class="mr-2"
+                  name="quiz-talleres"
+                  value="Taller de Acrobacias y Juegos (S/ 350)"
+                />Taller de Acrobacias y Juegos (S/ 350)</label
+              >
+            </div>
+            <div class="flex justify-between">
+              <button
+                type="button"
+                class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-8 rounded"
+                onclick="prevStep(5)"
+              >
+                Voltar
+              </button>
+              <button
+                type="button"
+                class="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-8 rounded"
+                onclick="nextStep(7)"
+              >
+                Próximo
+              </button>
+            </div>
+          </div>
+          <!-- Etapa 7: Forma de Pagamento -->
+          <div class="quiz-step hidden" id="step-pagamento">
+            <label class="block text-gray-300 mb-4">Como deseja pagar?</label>
+            <div class="flex flex-col gap-4 mb-6">
+              <label class="flex items-center"
+                ><input
+                  type="radio"
+                  name="quiz-pagamento"
+                  value="À vista"
+                  class="mr-2"
+                  required
+                />À vista</label
+              >
+              <label class="flex items-center"
+                ><input
+                  type="radio"
+                  name="quiz-pagamento"
+                  value="Cartão/Tarjeta"
+                  class="mr-2"
+                  required
+                />Cartão/Tarjeta</label
+              >
+            </div>
+            <div class="flex justify-between">
+              <button
+                type="button"
+                class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-8 rounded"
+                onclick="prevStep(6)"
+              >
+                Voltar
+              </button>
+              <button
+                type="button"
+                class="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-8 rounded"
+                onclick="nextStep(8)"
+              >
+                Próximo
+              </button>
+            </div>
+          </div>
+          <!-- Etapa 8: Resumo -->
+          <div class="quiz-step hidden" id="step-resumo">
+            <h3 class="text-xl font-bold mb-4">Resumo do Pedido</h3>
+            <div id="quiz-resumo" class="text-gray-300 mb-6"></div>
+            <div class="flex justify-between">
+              <button
+                type="button"
+                class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-8 rounded"
+                onclick="prevStep(7)"
+              >
+                Voltar
+              </button>
+              <button
+                type="submit"
+                class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-8 rounded"
+              >
+                Enviar Reserva por WhatsApp
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-8">
+      <div class="container mx-auto px-4 text-center">
+        <p>&copy; 2025 LA Cosmic Company. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

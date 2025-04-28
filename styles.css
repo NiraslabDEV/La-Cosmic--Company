@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #ff6b6b;
+  --secondary-color: #4ecdc4;
+  --dark-color: #2d3436;
+  --light-color: #f9f9f9;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Animações */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Estilos personalizados para o formulário */
+input,
+select {
+  transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--primary-color);
+}
+
+/* Estilos para os cards de serviços */
+.service-card {
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Gradientes personalizados */
+.gradient-primary {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff8e8e 100%);
+}
+
+.gradient-secondary {
+  background: linear-gradient(135deg, #4ecdc4 0%, #45b7af 100%);
+}
+
+/* Estilos para o botão de reserva */
+.reserve-button {
+  background: linear-gradient(135deg, var(--primary-color) 0%, #ff8e8e 100%);
+  transition: all 0.3s ease;
+}
+
+.reserve-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+}
+
+/* Estilos para o header */
+header {
+  backdrop-filter: blur(10px);
+  background: rgba(45, 52, 54, 0.9);
+}
+
+/* Estilos para as seções */
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 107, 107, 0.1) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+/* Estilos para o formulário */
+#reservationForm {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para inputs do formulário */
+#reservationForm input,
+#reservationForm select {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#reservationForm input:focus,
+#reservationForm select:focus {
+  border-color: var(--primary-color);
+}
+
+/* Estilos para o footer */
+footer {
+  background: linear-gradient(to right, var(--dark-color), #1a1a1a);
+}
